@@ -1,7 +1,5 @@
 # postfix/main.cf 参考設定
 
-
-
 ## base config
 Postfixの基本設定です。
 
@@ -40,8 +38,6 @@ smtpd_recipient_restrictions      =
     permit_sasl_authenticated
     reject_unauth_destination
 ```
-
-
 
 ## smtpd_tls
 Postfixで SMTPサーバにTLS（暗号化通信）を有効化するためのパラメータ です。Lets Encryptの証明書を使って安全なメール通信を実現しています。
